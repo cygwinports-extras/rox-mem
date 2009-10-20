@@ -1,0 +1,22 @@
+--- origsrc/Mem/AppRun	2005-01-23 06:43:55.000000000 -0600
++++ src/Mem/AppRun	2009-10-20 00:49:22.079708300 -0500
+@@ -7,6 +7,8 @@ APP_DIR=`cd "$APP_DIR";pwd`; export APP_
+ 
+ "$APP_DIR/choice_install" kerofin.demon.co.uk/$PROG "$APP_DIR"/gtkrc gtkrc
+ 
++export PLATFORM="CYGWIN-ix86"
++
+ if [ x"$PLATFORM" = x ]; then
+   ARCH=`uname -m`
+   case $ARCH in
+--- origsrc/Mem/AppletRun	2004-11-21 07:23:17.000000000 -0600
++++ src/Mem/AppletRun	2009-10-20 00:49:25.689713300 -0500
+@@ -7,6 +7,8 @@ APP_DIR=`cd "$APP_DIR";pwd`; export APP_
+ 
+ "$APP_DIR/choice_install" $PROG "$APP_DIR"/gtkrc gtkrc
+ 
++export PLATFORM="CYGWIN-ix86"
++
+ if [ x"$PLATFORM" = x ]; then
+   ARCH=`uname -m`
+   case $ARCH in

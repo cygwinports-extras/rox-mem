@@ -1,0 +1,10 @@
+ORIG_PN="Mem"
+inherit rox
+
+HOMEPAGE="http://www.kerofin.demon.co.uk/rox/mem.html"
+SRC_URI="http://www.kerofin.demon.co.uk/rox/${ORIG_PN}-${PV}.tar.gz"
+SRC_DIR=.
+
+PATCH_URI="2.1.5-cygwin.patch"
+
+ROX_APP=${ORIG_PN}
