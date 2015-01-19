@@ -3,7 +3,7 @@ inherit rox
 
 NAME="rox-mem"
 VERSION=2.1.5
-RELEASE=1
+RELEASE=2
 CATEGORY="ROX"
 SUMMARY="ROX memory usage monitor"
 DESCRIPTION="ROX is a fast, user friendly desktop based on RISC OS which makes
